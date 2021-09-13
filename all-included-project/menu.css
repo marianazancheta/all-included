@@ -1,0 +1,541 @@
+@font-face {
+    font-family: "FontePrincipal";
+    src: url("fontes/SummerMornings-Regular.otf");
+}
+
+@font-face {
+    font-family: "FonteTexto";
+    src: url("fontes/HelveticaLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: "FonteSubTitulo";
+    src: url("fontes/HelveticaNeueLTStd\ Bd.otf");
+}
+
+body {
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+div#capa {
+    width: 100%;
+    height: 350px;
+}
+
+img#capa {
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 0px;
+}
+
+span#menucapa {
+    width: 400px;
+    height: 180px;
+    display: block;
+    position: relative;
+    font-family: "FontePrincipal";
+    font-size: 140pt;
+    color: #faf4f7;
+    background-color: rgba(35,43,29,.7);
+    padding: 3px;
+    top: -230px;
+    left: 700px;
+}
+
+span#breadc {
+    display: block;
+    position: relative;
+    top: -150px;
+    left: 100px;
+    font-family: "FonteTexto";
+    font-size: 36pt;
+    color: #232b1d;
+}
+
+span:visited {
+    color: pink !important;
+  }
+
+h1 {
+    font-family: "FontePrincipal";
+    font-size: 80pt;
+    color: #232b1d;
+    display: block;
+    position: relative;
+    left: 100px;
+}
+
+h2 {
+    font-family: "FontePrincipal";
+    font-size: 35px;
+    color: black;
+}
+
+p {
+    font-family: "FonteTexto";
+    font-size: 26pt;
+    color: black;
+}
+
+span.price {
+    font-family: "FonteTexto";
+    font-size: 26pt;
+    color: #479aad;
+}
+
+div#salads {
+    height: 582px;
+    overflow: hidden;
+}
+
+img#cocumber {
+    display: block;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    width: auto;
+}
+
+h2#cocumberTitle {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -300px;
+    width: fit-content;
+}
+
+p#cocumberDesc {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -320px;
+    width: 450px;
+}
+
+span#cocumberPrice {
+    display: block;
+    position: relative;
+    top: -394px;
+    left: 690px;
+}
+
+img#add1-1 {
+    display: block;
+    position: relative;
+    top: -492px;
+    left: 82px;
+}
+
+img#thai {
+    display: block;
+    position: relative;
+    top: -755px;
+    left: 1010px;
+}
+
+h2#thaiTitle {
+    display: block;
+    position: relative;
+    top: -1005px;
+    left: 1290px;
+}
+
+p#thaiDesc {
+    display: block;
+    position: relative;
+    top: -1025px;
+    left: 1290px;
+    width: 450px;
+}
+
+span#thaiPrice {
+    position: relative;
+    top: -1057px;
+    left: 1666px;
+}
+
+img#add1-2 {
+    display: block;
+    position: relative;
+    left: 993px;
+    top: -1153px;
+}
+
+div#maincourses {
+    height: 866px;
+    overflow: hidden;
+}
+
+img#burger {
+    display: block;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+h2#burgerTitle {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -300px;
+    width: fit-content;
+}
+
+p#burgerDesc {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -320px;
+    width: 450px;
+    margin: 0px;
+}
+
+span#burgerPrice {
+    display: block;
+    position: relative;
+    top: -305px;
+    left: 730px;
+}
+
+img#add2-1 {
+    display: block;
+    position: relative;
+    top: -364px;
+    left: 82px;
+}
+
+img#spaghetti {
+    display: block;
+    position: relative;
+    top: -630px;
+    left: 1010px;
+}
+
+h2#spaghettiTitle {
+    display: block;
+    position: relative;
+    top: -880px;
+    left: 1290px;
+}
+
+p#spaghettiDesc {
+    display: block;
+    position: relative;
+    top: -905px;
+    left: 1290px;
+    width: 450px;
+}
+
+span#spaghettiPrice {
+    position: relative;
+    top: -925px;
+    left: 1666px;
+}
+
+img#add2-2 {
+    display: block;
+    position: relative;
+    left: 993px;
+    top: -984px;
+}
+
+img#pie {
+    display: block;
+    position: relative;
+    top: -850px;
+    left: 700px;
+}
+
+h2#pieTitle {
+    display: block;
+    position: relative;
+    top: -1100px;
+    left: 980px;
+}
+
+p#pieDesc {
+    display: block;
+    position: relative;
+    top: -1105px;
+    left: 980px;
+    width: 450px;
+}
+
+span#piePrice {
+    position: relative;
+    top: -1125px;
+    left: 1356px;
+}
+
+img#add2-3 {
+    display: block;
+    position: relative;
+    left: 683px;
+    top: -1184px;
+}
+
+div#desserts {
+    height: 518px;
+    overflow: hidden;
+}
+
+img#icecream {
+    display: block;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    width: auto;
+}
+
+h2#icecreamTitle {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -300px;
+    width: fit-content;
+}
+
+p#icecreamDesc {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -320px;
+    width: 450px;
+}
+
+span#icecreamPrice {
+    display: block;
+    position: relative;
+    top: -397px;
+    left: 646px;
+}
+
+img#add3-1 {
+    display: block;
+    position: relative;
+    top: -965px;
+    left: 82px;
+}
+
+p#iceChocolate {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -415px;
+}
+
+p#iceStrawberry {
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -492px;
+}
+
+p#iceCaramel {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -570px;
+}
+
+p#iceLemon {
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -647px;
+}
+
+p#iceVanilla {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -722px;
+}
+
+p#icePassion {
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -799px;
+}
+
+img#cake {
+    display: block;
+    position: relative;
+    top: -1229px;
+    left: 1010px;
+}
+
+h2#cakeTitle {
+    display: block;
+    position: relative;
+    top: -1478px;
+    left: 1290px;
+    width: 400px;
+}
+
+p#cakeDesc {
+    display: block;
+    position: relative;
+    top: -1499px;
+    left: 1290px;
+    width: 450px;
+}
+
+span#cakePrice {
+    position: relative;
+    top: -1534px;
+    left: 1666px;
+}
+
+img#add3-2 {
+    display: block;
+    position: relative;
+    left: 993px;
+    top: -1625px;
+}
+
+div#beverages {
+    height: 520px;
+    overflow: hidden;
+}
+
+img#juices {
+    display: block;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    width: auto;
+}
+
+h2#juicesTitle {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -300px;
+    width: fit-content;
+}
+
+p#juicesDesc {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -320px;
+    width: 450px;
+}
+
+span#juicesPrice {
+    display: block;
+    position: relative;
+    top: -397px;
+    left: 688px;
+}
+
+img#add4-1 {
+    display: block;
+    position: relative;
+    top: -322px;
+    left: 82px;
+}
+
+p#juiGrape {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -520px;
+}
+
+p#juiOrange {
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -597px;
+}
+
+p#juiLemon {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -626px;
+}
+
+p#juiMelon {
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -703px;
+}
+
+p#juiAcai {
+    display: block;
+    position: relative;
+    left: 350px;
+    top: -734px;
+}
+
+img#cocktails {
+    display: block;
+    position: relative;
+    top: -1005px;
+    left: 1010px;
+}
+
+h2#cocktailsTitle {
+    display: block;
+    position: relative;
+    top: -1254px;
+    left: 1290px;
+    width: 400px;
+}
+
+p#cocktailsDesc {
+    display: block;
+    position: relative;
+    top: -1275px;
+    left: 1290px;
+    width: 450px;
+}
+
+span#cocktailsPrice {
+    position: relative;
+    top: -1351px;
+    left: 1460px;
+}
+
+img#add4-2 {
+    display: block;
+    position: relative;
+    left: 993px;
+    top: -1320px;
+}
+
+p#ctMargarita {
+    display: block;
+    position: relative;
+    left: 1290px;
+    top: -1482px;
+}
+
+p#ctMojito {
+    display: block;
+    position: relative;
+    left: 1496px;
+    top: -1559px;
+}
+
+p#ctCaipirinha {
+    display: block;
+    position: relative;
+    left: 1290px;
+    top: -1586px;
+}
+
+p#ctBrazilian{
+    display: block;
+    position: relative;
+    left: 1496px;
+    top: -1662px;
+}
+
